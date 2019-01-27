@@ -17,10 +17,8 @@ int main()
 {
 	//initializes all values to zero
 	int integers[Isize] = { 0 };
-
 	getData(integers);
 	printReport(integers);
-
 	system("pause");
 	return 0;
 }
