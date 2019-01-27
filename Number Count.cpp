@@ -1,10 +1,3 @@
-/*Name:Kevin Davis
-Course:CS1044, Spring 2018, Dr.Johnson
-Purpose:This program reads numbers from a file and counts how many
-times each number occurs. It then lists them is ascending order
-based on number of occurrence then finds the mode.
-*/
-
 #include <iostream>
 #include <iomanip>
 #include <fstream>
@@ -38,8 +31,6 @@ int main()
 //*************************HEADING********************************
 void heading(ofstream &outfile)
 {
-	outfile << "Name:Kevin Davis \n";
-	outfile << "Course:CS1044, Spring 2018, Dr.Johnson \n\n";
 	outfile << "Purpose:This program reads numbers from a file and counts how many \n";
 	outfile << "times each number occurs.It then lists them is ascending order \n";
 	outfile << "based on number of occurrence then finds the mode. \n\n";
