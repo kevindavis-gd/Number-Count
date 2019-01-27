@@ -159,4 +159,3 @@ void getMode(int g[], ofstream &outfile)
 	outfile << "\n The largest number that occured the most was "
 		<< num << " and it occured " << max << " times. \n";
 }
-
